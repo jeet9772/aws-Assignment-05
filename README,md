@@ -31,8 +31,6 @@ Terraform Root Module
 
 
 
-
-
 ## Project Structure
 
 ```text
@@ -136,3 +134,7 @@ terraform.tfstate
 ## Conclusion
 
 This assignment demonstrates how Terraform Modules can be used to create reusable and organized AWS infrastructure. Terraform state is managed remotely using Amazon S3, with state-locking support configured for the assignment.
+
+
+
+
