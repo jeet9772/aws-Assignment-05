@@ -27,6 +27,11 @@ Terraform Root Module
 * **Subnet Module** – Creates a subnet inside the VPC.
 * **Security Group Module** – Creates the security group with SSH access.
 * **Instance Module** – Creates an EC2 instance.
+########screenshort #########
+
+
+
+
 
 ## Project Structure
 
