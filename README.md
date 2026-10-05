@@ -31,6 +31,7 @@ Terraform Root Module
 <img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 20 42 AM" src="https://github.com/user-attachments/assets/eea73854-22ba-4999-bcfe-0ffd205c34d5" />
 
 
+<img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 29 30 AM" src="https://github.com/user-attachments/assets/4d8dcb77-5744-44a5-ae0d-525144837819" />
 
 ## Project Structure
 
@@ -60,6 +61,8 @@ terraform-assignment-05/
         └── outputs.tf
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 33 01 AM" src="https://github.com/user-attachments/assets/79110c2d-af66-474a-aa9a-7ed4357af513" />
+
 ## Remote State Management
 
 Terraform state is stored remotely in Amazon S3.
@@ -69,6 +72,9 @@ Bucket: jeetendra-terraform-state-2026
 Path:   assignment-05/terraform.tfstate
 Region: ap-south-1
 ```
+
+<img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 33 54 AM" src="https://github.com/user-attachments/assets/77b78843-3ca7-4995-a1c2-56e06d9db4f5" />
+
 
 S3 Versioning is enabled to maintain state file versions.
 
@@ -90,6 +96,8 @@ terraform plan
 terraform apply
 terraform state list
 ```
+<img width="1440" height="900" alt="Screenshot 2026-10-02 at 12 39 10 AM" src="https://github.com/user-attachments/assets/aff56847-3d03-47b9-a3f4-32ab7756f97c" />
+
 
 ## Verification
 
@@ -119,6 +127,8 @@ Final plan verification:
 ```text
 No changes. Your infrastructure matches the configuration.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-10-02 at 12 39 10 AM" src="https://github.com/user-attachments/assets/de81018a-ce6b-466f-bcec-5a278bf10649" />
+
 
 S3 state verification:
 
@@ -127,6 +137,8 @@ aws s3 ls s3://jeetendra-terraform-state-2026/assignment-05/
 ```
 
 Output:
+<img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 40 06 AM" src="https://github.com/user-attachments/assets/e65e5db4-1bb2-4148-b793-4050a7da6c92" />
+
 
 ```text
 terraform.tfstate
@@ -135,8 +147,3 @@ terraform.tfstate
 ## Conclusion
 
 This assignment demonstrates how Terraform Modules can be used to create reusable and organized AWS infrastructure. Terraform state is managed remotely using Amazon S3, with state-locking support configured for the assignment.
-
-
-
-
-
