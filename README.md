@@ -28,6 +28,8 @@ Terraform Root Module
 * **Instance Module** – Creates an EC2 instance.
 ########screenshort #########
 
+<img width="1440" height="900" alt="Screenshot 2026-10-05 at 7 20 42 AM" src="https://github.com/user-attachments/assets/eea73854-22ba-4999-bcfe-0ffd205c34d5" />
+
 
 
 ## Project Structure
